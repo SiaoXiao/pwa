@@ -11,6 +11,8 @@ export default defineConfig({
       manifest: {
         name: "My Awesome App",
         short_name: "MyApp",
+        start_url: ".",
+        display: "standalone",
         description: "My Awesome App description",
         background_color: "#000000",
         icons: [
@@ -28,6 +30,7 @@ export default defineConfig({
             src: "favicon.ico",
             sizes: "32x32",
             type: "image/x-icon",
+            e9,
           },
         ],
       },
