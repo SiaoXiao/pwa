@@ -15,7 +15,7 @@ export default defineConfig({
         display: "standalone",
         description: "拯救宇宙",
         theme_color: "#ffffff",
-        background_color: "#000000",
+        // background_color: "#000000",
         icons: [
           {
             src: "pwa-192x192.png",
