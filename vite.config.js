@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
-      includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
+      includeAssets: ["favicon.ico"],
       manifest: {
         name: "My Awesome App",
         short_name: "MyApp",
@@ -16,7 +16,7 @@ export default defineConfig({
         icons: [
           {
             src: "/favicon.ico",
-            sizes: "192x192 512x512",
+            sizes: "192x192",
             type: "image/x-icon",
           },
         ],
