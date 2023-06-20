@@ -32,6 +32,12 @@ export default defineConfig({
             sizes: "32x32",
             type: "image/x-icon",
           },
+          {
+            src: "maskable_icon.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "any maskable",
+          },
         ],
       },
     }),
