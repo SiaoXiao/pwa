@@ -9,11 +9,12 @@ export default defineConfig({
     VitePWA({
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
       manifest: {
-        name: "My Awesome App",
-        short_name: "MyApp",
+        name: "FunsGirl App",
+        short_name: "FunsGirl",
         start_url: ".",
         display: "standalone",
-        description: "My Awesome App description",
+        description: "拯救宇宙",
+        theme_color: "#ffffff",
         background_color: "#000000",
         icons: [
           {
@@ -30,7 +31,6 @@ export default defineConfig({
             src: "favicon.ico",
             sizes: "32x32",
             type: "image/x-icon",
-            e9,
           },
         ],
       },
