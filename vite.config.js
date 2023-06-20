@@ -12,7 +12,7 @@ export default defineConfig({
         name: "My Awesome App",
         short_name: "MyApp",
         description: "My Awesome App description",
-        theme_color: "#ffffff",
+        background_color: "#000000",
         icons: [
           {
             src: "favicon.ico",
