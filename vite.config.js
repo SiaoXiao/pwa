@@ -12,7 +12,7 @@ export default defineConfig({
         name: "FunsGirl App",
         short_name: "FunsGirl",
         start_url: ".",
-        display: "fullscreen",
+        display: "standalone",
         description: "拯救宇宙",
         theme_color: "#000000",
         background_color: "#000000",
