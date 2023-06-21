@@ -45,11 +45,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
               src: "/icons/pwa-512x512.png",
               sizes: "512x512",
               type: "image/png",
-            },
-            {
-              src: "/icons/favicon.ico",
-              sizes: "32x32",
-              type: "image/x-icon",
+              purpose: "any",
             },
             {
               src: "/icons/maskable_icon.png",

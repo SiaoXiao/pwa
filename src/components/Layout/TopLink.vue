@@ -20,6 +20,7 @@
 <style lang="scss" scoped>
 @import "../../style/method.scss";
 
+
 .top_link {
   box-sizing: border-box;
   padding: 12px;
