@@ -31,10 +31,10 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
         manifest: {
           name: "FunsGirl App",
           short_name: "FunsGirl",
-          display: "fullscreen",
+          display: "standalone",
           description: "拯救宇宙",
-          theme_color: "#00ff00",
-          background_color: "#ff00ff",
+          theme_color: "#252942",
+          background_color: "#252942",
           icons: [
             {
               src: "/icons/pwa-192x192.png",
