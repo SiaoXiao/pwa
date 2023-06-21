@@ -33,7 +33,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
           short_name: "FunsGirl",
           display: "standalone",
           description: "拯救宇宙",
-          theme_color: "#252942",
+          theme_color: "#171b24",
           background_color: "#252942",
           icons: [
             {
