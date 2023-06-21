@@ -22,7 +22,7 @@
 
 .top_link {
   box-sizing: border-box;
-  padding: 12px 10px;
+  padding: 12px;
   width: 100%;
   background: #171b24;
 
