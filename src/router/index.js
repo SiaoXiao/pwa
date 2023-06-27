@@ -58,8 +58,8 @@ const router = createRouter({
 router.beforeEach(async (to, from, next) => {
   // const userInfo = JSON.parse(localStorage.getItem("userInfo"));
 
-  const title = "Funs Girl";
-  document.title = title || to.meta.title;
+  // const title = "Funs Girl";
+  // document.title = title || to.meta.title;
 
   if (to.meta.requiresAuth) {
     // if (userInfo?.token !== "" && userInfo) {

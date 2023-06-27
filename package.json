@@ -13,9 +13,11 @@
     "test:unit": "vitest --environment jsdom"
   },
   "dependencies": {
+    "@tawk.to/tawk-messenger-vue-3": "^1.0.1",
     "@vueuse/core": "^10.2.0",
     "axios": "^1.4.0",
     "sass": "^1.63.5",
+    "swiper": "^9.4.1",
     "vite-plugin-pwa": "^0.16.4",
     "vue": "^3.2.47",
     "vue-router": "^4.2.2",

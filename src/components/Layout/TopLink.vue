@@ -1,10 +1,17 @@
+<script setup>
+
+const toggleChat = () => {
+  window.Tawk_API.toggle()
+}
+</script>
+
 <template>
   <div class="top_link">
     <div>
       <ul class="flex-container">
         <li>網頁公告</li>
         <li>常見問題</li>
-        <li>線上客服</li>
+        <li @click="toggleChat">線上客服</li>
       </ul>
       <ul>
         <li>繁體中文</li>
@@ -13,8 +20,6 @@
     </div>
   </div>
 </template>
-<script setup>
-</script>
 
 
 <style lang="scss" scoped>
