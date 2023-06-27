@@ -13,8 +13,12 @@
         </div>
         <div>
           <ul class="member_links">
-            <li>1</li>
-            <li>2</li>
+            <li>
+              <Search />
+            </li>
+            <li>
+              <Langs />
+            </li>
             <li><a href="/"><img src="../assets/icon/avatar.png" alt=""></a></li>
           </ul>
         </div>

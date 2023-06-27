@@ -35,7 +35,6 @@ SwiperCore.use([Pagination, Navigation, Autoplay]);
 
 ::v-deep .swiper-pagination-bullet-active {
   background: rgba(255, 255, 255, 0.5);
-  // rgba(160, 160, 160, 0.53)
 }
 
 ::v-deep .swiper-pagination-bullet {
@@ -47,12 +46,14 @@ SwiperCore.use([Pagination, Navigation, Autoplay]);
 ::v-deep .swiper-button-next,
 ::v-deep .swiper-button-prev {
 
-  color: red;
   width: 50px;
   height: 50px;
   background: transparent;
   transition: all .5s;
   border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     background: rgba(255, 255, 255, 0.74);
