@@ -6,9 +6,9 @@
   disableOnInteraction: false,
 }" class="mySwiper">
     <swiper-slide><img src="../assets//swiper/02b910976b23d2d4ced519c983c2724c.jpg" alt=""></swiper-slide>
-    <swiper-slide><img src="../assets//swiper/5775f95c7e0df38d74089de5111dfd40.jpg" alt=""></swiper-slide>
+    <!-- <swiper-slide><img src="../assets//swiper/5775f95c7e0df38d74089de5111dfd40.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="../assets//swiper/e0cadd1d45f81dd15264d6ced94c15c6.gif" alt=""></swiper-slide>
-    <swiper-slide><img src="../assets//swiper/ff5b5e6b17e405d1c4e19a647df35d1a.jpg" alt=""></swiper-slide>
+    <swiper-slide><img src="../assets//swiper/ff5b5e6b17e405d1c4e19a647df35d1a.jpg" alt=""></swiper-slide> -->
   </swiper>
 </template>
 <script setup>
