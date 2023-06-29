@@ -2,6 +2,7 @@
   <TopLink></TopLink>
   <slot>
   </slot>
+  <Footer></Footer>
 </template>
 <script setup>
 </script>

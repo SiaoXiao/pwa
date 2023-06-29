@@ -113,6 +113,7 @@ header {
 
 .logo_box {
   width: 150px;
+  min-width: 150px;
 
   a {
     display: block;
